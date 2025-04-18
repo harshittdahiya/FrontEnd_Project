@@ -1,0 +1,81 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <circle cx="300" cy="300" r="240" fill="#f5f7ff" opacity="0.8"/>
+  <circle cx="180" cy="200" r="15" fill="#e6e9ff" opacity="0.6"/>
+  <circle cx="450" cy="150" r="10" fill="#e6e9ff" opacity="0.6"/>
+  <circle cx="400" cy="450" r="12" fill="#e6e9ff" opacity="0.6"/>
+  <circle cx="150" cy="420" r="8" fill="#e6e9ff" opacity="0.6"/>
+  
+  <!-- Main elements - Document and profile -->
+  <g transform="translate(160, 130)">
+    <!-- Resume/CV document -->
+    <rect x="0" y="0" width="180" height="240" rx="10" fill="white" stroke="#ccd4ff" stroke-width="3"/>
+    <rect x="20" y="30" width="140" height="15" rx="3" fill="#4a3aff" opacity="0.7"/>
+    <rect x="20" y="60" width="80" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="20" y="80" width="140" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="20" y="100" width="120" height="8" rx="2" fill="#ccd4ff"/>
+    
+    <rect x="20" y="130" width="60" height="8" rx="2" fill="#4a3aff" opacity="0.5"/>
+    <rect x="20" y="150" width="140" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="20" y="170" width="130" height="8" rx="2" fill="#ccd4ff"/>
+    
+    <rect x="20" y="200" width="60" height="8" rx="2" fill="#4a3aff" opacity="0.5"/>
+    <rect x="20" y="220" width="140" height="8" rx="2" fill="#ccd4ff"/>
+  </g>
+  
+  <!-- Profile icon/card -->
+  <g transform="translate(270, 170)">
+    <rect x="0" y="0" width="160" height="200" rx="10" fill="white" stroke="#ffd3c2" stroke-width="3"/>
+    
+    <!-- Profile picture placeholder -->
+    <circle cx="80" cy="60" r="40" fill="#ffd3c2"/>
+    <circle cx="80" cy="50" r="20" fill="#ff9e80"/>
+    <path d="M40 120 Q80 160, 120 120" fill="#ff9e80" opacity="0.8"/>
+    
+    <!-- Profile details -->
+    <rect x="30" y="120" width="100" height="10" rx="2" fill="#ccd4ff"/>
+    <rect x="50" y="140" width="60" height="10" rx="2" fill="#ccd4ff"/>
+    <rect x="40" y="165" width="80" height="20" rx="5" fill="#4a3aff"/>
+  </g>
+  
+  <!-- Building/company icon -->
+  <g transform="translate(220, 250)">
+    <rect x="0" y="0" width="130" height="150" rx="8" fill="white" stroke="#b3e5fc" stroke-width="3"/>
+    
+    <!-- Windows pattern -->
+    <rect x="20" y="30" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    <rect x="55" y="30" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    <rect x="90" y="30" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    
+    <rect x="20" y="65" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    <rect x="55" y="65" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    <rect x="90" y="65" width="20" height="20" rx="2" fill="#b3e5fc"/>
+    
+    <rect x="40" y="110" width="50" height="30" rx="4" fill="#29b6f6"/>
+  </g>
+  
+  <!-- Connection lines -->
+  <path d="M300 260 Q340 300, 320 350" stroke="#4a3aff" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M250 240 Q220 280, 240 330" stroke="#4a3aff" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Magnifying glass -->
+  <g transform="translate(350, 350) rotate(-30)">
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#6c63ff" stroke-width="8"/>
+    <line x1="30" y1="30" x2="60" y2="60" stroke="#6c63ff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Search results or matching element -->
+  <g transform="translate(380, 320)">
+    <rect x="0" y="0" width="80" height="100" rx="5" fill="white" stroke="#6c63ff" stroke-width="2" opacity="0.8"/>
+    <rect x="10" y="15" width="60" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="10" y="35" width="40" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="10" y="55" width="50" height="8" rx="2" fill="#ccd4ff"/>
+    <rect x="10" y="75" width="30" height="8" rx="2" fill="#4a3aff" opacity="0.7"/>
+  </g>
+  
+  <!-- Small decorative elements -->
+  <circle cx="420" cy="200" r="8" fill="#ffd93d"/>
+  <circle cx="200" cy="380" r="10" fill="#ffd93d"/>
+  <rect x="410" y="400" width="16" height="16" rx="3" fill="#ffd93d" transform="rotate(25, 418, 408)"/>
+  <rect x="180" cy="150" width="14" height="14" rx="3" fill="#ffd93d" transform="rotate(-15, 187, 157)"/>
+</svg>
